@@ -1,0 +1,189 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.details {
+  background: aqua;
+  border: 1px solid brown;
+  font-size: larger;
+  border-radius: 15px;
+  padding: 4px;
+}
+
+.tripCards {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #afafc2;
+  box-shadow: #795548 0 0 2px 5px;
+  background: #dcd5cd;
+  margin: 15px;
+  width: 300px;
+  min-height: 300px;
+  max-height: 450px;
+  font-size: x-large;
+  border-radius: 25px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#allCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#oneTrip {
+  border: 2px brown solid;
+  padding: 10px;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  max-width: 500px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: darkolivegreen;
+  font-family: initial;
+}
+
+.main-buttons {
+  margin: 15px;
+  cursor: pointer;
+}
+
+button {
+  margin: 10px;
+  border-radius: 8px;
+
+  font-size: 30px;
+  font-weight: 500;
+  font-family: inherit;
+
+  cursor: pointer;
+  padding: 0 7px;
+}
+
+footer {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  background: #ee6161;
+  height: 8%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  color: rgb(255 255 255);
+  font-weight: 700;
+}
+
+#main {
+  min-height: 550px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sendButtons input {
+  background: #bdec87;
+  width: 100%;
+  min-width: 50px;
+  padding: 5px;
+  font-weight: 800;
+  cursor: pointer;
+  margin: 5px 2px;
+  border-radius: 15px;
+}
+
+form > input {
+  height: 25px;
+  padding: 5px;
+  border: black solid 1px;
+  border-radius: 7px;
+  font-family: -webkit-body;
+}
+
+#activities {
+  display: flex;
+  background: white;
+  padding: 5px;
+  border: black solid 1px;
+  border-radius: 7px;
+  font-family: -webkit-body;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sendButtons {
+  display: flex;
+  width: 350px;
+}
+
+#oneTrip h2 {
+  text-decoration: underline;
+}
+
+.addButton {
+  width: 300px;
+  height: 50px;
+  font-family: system-ui;
+  font-size: xx-large;
+}
+
+#updateButton {
+  width: 300px;
+  height: 50px;
+  font-family: system-ui;
+  font-size: x-large;
+}
+
+#updateCard {
+  border: 2px brown solid;
+  padding: 10px;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  max-width: 550px;
+}
+
+#newCard {
+  border: 2px brown solid;
+  padding: 10px;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  max-width: 500px;
+  min-width: 350px;
+}
